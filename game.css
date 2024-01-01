@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.game-wrapper {
+  display: flex;
+  max-width: 400px;
+  margin: 100px auto;
+  height: 400px;
+  flex-wrap: wrap;
+}
+
+.game-wrapper > div {
+  width: 33.3%;
+  height: 33.3%;
+  box-shadow: 0 0 1px 0 #A0A0A0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 5rem;
+  color: #444;
+  cursor: pointer;
+}
